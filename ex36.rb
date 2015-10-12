@@ -64,12 +64,6 @@ def largeCavern
 		puts "You can now see and can see the ceiling is covered with bats, but you can also see a door or something on the far wall."
 		newHiker = Hiker.new
 		newMonster = Monster.new
-		#newMonster.life(10)
-		newHiker.attack(newMonster)
-		newHiker.attack(newMonster)
-		newMonster.attack(newHiker)
-		newMonster.attack(newHiker)
-		newMonster.attack(newHiker)
 		newDoor
 	else
 		puts "You've waited to adjust your eyes and think you can see just fine.  To be safe you crawl on the ground so you can feel what is in front of you.  But you don't see the pit until its too late and you fall in and die."
